@@ -125,6 +125,5 @@ while running:
                 target_frame = int(target_ratio * total_frames)
                 cap.set(cv2.CAP_PROP_POS_FRAMES, target_frame)
 
-# Cleanup
 cap.release()
 pygame.quit()
